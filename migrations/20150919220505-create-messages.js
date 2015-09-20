@@ -23,6 +23,12 @@ module.exports = {
         ts: {
           type: Sequelize.FLOAT
         },
+        subtype: {
+          type: Sequelize.STRING
+        },
+        hidden: {
+          type: Sequelize.BOOLEAN
+        },
         createdAt: {
           type: DataTypes.DATE
         },
