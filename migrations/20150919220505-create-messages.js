@@ -3,7 +3,7 @@
 module.exports = {
   up: function (queryInterface, Sequelize) {
     migration.createTable(
-      'general',
+      'messages',
       {
         id: {
           type: DataTypes.INTEGER,
@@ -34,6 +34,6 @@ module.exports = {
   },
 
   down: function (queryInterface, Sequelize) {
-    migration.dropTable('general')
+    migration.dropTable('messages')
   }
 };
