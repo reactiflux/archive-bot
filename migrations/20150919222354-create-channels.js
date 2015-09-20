@@ -10,8 +10,11 @@ module.exports = {
           primaryKey: true,
           autoIncrement: true
         },
+        channel_id: {
+          type: DataTypes.STRING
+        },
         name: {
-          type: DataTypes.STRING,
+          type: DataTypes.STRING
         },
         description: {
           type: Sequelize.STRING

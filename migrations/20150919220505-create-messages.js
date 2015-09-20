@@ -10,6 +10,9 @@ module.exports = {
           primaryKey: true,
           autoIncrement: true
         },
+        channel_id:{
+          type: DataTypes.STRING
+        },
         user_id: {
           type: DataTypes.STRING,
           primaryKey: true,
