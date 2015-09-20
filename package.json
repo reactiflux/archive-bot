@@ -1,0 +1,26 @@
+{
+  "name": "reactiflux-archiver",
+  "version": "0.0.1",
+  "description": "archives all messages from public reactiflux channels",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactiflux/archive-bot.git"
+  },
+  "keywords": [
+    "react",
+    "reactiflux"
+  ],
+  "author": "Reactiflux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reactiflux/archive-bot/issues"
+  },
+  "homepage": "https://github.com/reactiflux/archive-bot#readme",
+  "dependencies": {
+    "slackbotapi": "^1.3.4"
+  }
+}
