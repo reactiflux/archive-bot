@@ -4,7 +4,7 @@
   "description": "archives all messages from public reactiflux channels",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.babel.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/reactiflux/archive-bot#readme",
   "dependencies": {
+    "babel": "^5.8.23",
     "sequelize": "^3.9.0",
     "slackbotapi": "^1.3.4"
   }
